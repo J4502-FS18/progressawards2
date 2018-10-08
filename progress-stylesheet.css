@@ -1,0 +1,55 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+
+}
+
+h1 {
+  text-align: center;
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-size: 2.3em;
+}
+
+p {
+  font-family: "Montserrat", Helvetica, sans-serif;
+  font-size: .9em;
+}
+
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #FE9920;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+.container {
+	padding: 10px;
+	background: #fff;
+  border-radius: 5px;
+	margin: 45px auto;
+  box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+}
+.item {
+	color: #000;
+  font-size: .8em;
+  font-family: "Raleway", Helvetica, sans-serif;
+  text-align: center;
+	padding: 15px;
+	margin: 5px;
+	background: #0E242c;
+	border-radius: 3px;
+}
