@@ -53,3 +53,46 @@ a:hover {
 	background: #0E242c;
 	border-radius: 3px;
 }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+
+input[type=submit] {
+    background-color: #0E242c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: "Raleway", Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #349eab;
+}
+
+
+.contact {
+    border-radius: 5px;
+    background-color: #EB823E;
+    padding: 20px;
+    color: white;
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-size: .9em;
+}
+}
+
+h2 {
+  text-align: center;
+  font-family: "Raleway", Helvetica, sans-serif;
+}
