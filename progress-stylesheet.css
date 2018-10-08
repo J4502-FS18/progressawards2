@@ -95,3 +95,9 @@ h2 {
   text-align: center;
   font-family: "Raleway", Helvetica, sans-serif;
 }
+
+.names {
+  text-align: center;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  font-size: .9em;
+}
