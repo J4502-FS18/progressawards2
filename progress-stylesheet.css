@@ -6,6 +6,11 @@
 
 }
 
+body {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 h1 {
   text-align: center;
   font-family: "Raleway", Helvetica, sans-serif;
@@ -115,6 +120,22 @@ h2 {
 #footer {
   text-align: center;
   font-size: .8em;
+}
+
+.categories {
+  font-family: "Raleway", Helvetica, sans-serif;
+}
+
+li {
+  margin: 20px 0;
+}
+
+b{
+  text-decoration:bold;
+}
+
+.nominate{
+  text-decoration: underline;
 }
 
 /*FLEXBOX DOWN BELOW HERE*/
