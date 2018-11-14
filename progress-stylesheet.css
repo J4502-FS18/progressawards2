@@ -149,6 +149,13 @@ b{
   text-decoration: underline;
 }
 
+.angela {display: block;
+margin-left: auto;
+margin-right: auto;
+width: 70%;
+max-width:300px;
+}
+
 /*FLEXBOX DOWN BELOW HERE*/
 
 
@@ -180,4 +187,5 @@ b{
   .menu-trigger{
     display:none;
   }
+
 }
