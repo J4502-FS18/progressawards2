@@ -6,9 +6,17 @@
 
 }
 
+.video {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
 body {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 h1 {
@@ -19,7 +27,7 @@ h1 {
 
 p {
   font-family: "Montserrat", Helvetica, sans-serif;
-  font-size: .9em;
+  font-size: 1.2em;
 }
 
 .item a:link {
@@ -63,9 +71,9 @@ a:hover {
   font-family: "Raleway", Helvetica, sans-serif;
   text-align: center;
 	padding: 15px;
-	margin: 5px;
-	background: #0E242c;
-	border-radius: 3px;
+  width: 100%;
+	background: #273555;
+	/*border-radius: 3px;*/
 }
 
 input[type=text], select, textarea {
@@ -124,7 +132,7 @@ h3{
 .names {
   text-align: center;
   font-family: "Montserrat", Helvetica, sans-serif;
-  font-size: .9em;
+  font-size: 1.2em;
   text-decoration:underline;
 }
 
@@ -135,6 +143,7 @@ h3{
 
 .categories {
   font-family: "Raleway", Helvetica, sans-serif;
+  font-size: 1.2em;
 }
 
 li {
@@ -146,7 +155,21 @@ b{
 }
 
 .nominate{
-  text-decoration: underline;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background:#EB823E;
+  width: 30%;
+  border-radius: 3px;
+}
+
+.nominate a:link{
+  color: white;
+}
+
+.nominate a:hover{
+  color: #273555;
 }
 
 .compact-image {display: block;
